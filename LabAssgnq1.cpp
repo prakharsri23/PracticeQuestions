@@ -6,12 +6,12 @@ class polygon//declaring a class
  public: 
  int width, height;//publically declaring a variable
  
- void set_value()
+ void set_value()//will set value
  { 
  cout<<"Enter value of width";
- cin>>width;
+ cin>>width;//enter value of width
  cout<<"Enter value of height";
- cin>>height;
+ cin>>height;//enter value of height
  }
 virtual  void calculate_area ()= 0;
 //pure virtual function
