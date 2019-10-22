@@ -18,9 +18,9 @@ public:
 }; 					// declaration Enclosing class ends here
 int main()
 {
-	Enclosing ob1;
+	Enclosing ob1;//object declaration
 	ob1.x=7;
-	Enclosing :: Nested ob;
+	Enclosing :: Nested ob;//object crestion
 	ob.NestedFun(ob1);
 }
 
