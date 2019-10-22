@@ -1,14 +1,14 @@
-#include<iostream>
+#include<iostream>//including input stream library
 using namespace std;
-class Enclosing 		             /* start of Enclosing class declaration */
+class Enclosing 		             // class declaration//
 {	 
 public:
-	int x=7;
+	int x=7;//initializing a number to 7
 	
 	class Nested 
     	{              			/* start of Nested class declaration */
 	    	int y=2;
-			public: 
+			public: //in public
 	   	 void NestedFun(Enclosing e) 
 	   	 {
 		    	cout<<e.x; 	// works fine: nested class can access 
