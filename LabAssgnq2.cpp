@@ -1,10 +1,10 @@
-#include<iostream>
+#include<iostream>//including input stream
 using namespace std;
 
-class Shape
+class Shape//declaring a class
 {
-	public:
-		virtual void area ()
+	public://in public
+		virtual void area ()//virtual function
 		{ 
 		cout<<"The area is shown"<<endl;
 		}; //virtual function
@@ -13,7 +13,7 @@ class Shape
           cout<<"The name of shape is shown"<<endl;
 		} //virtual function
 };
-class Circle : public Shape
+class Circle : public Shape//inheriting a class
 { 
   public:
   void display () //function display is overriden in the derived classes
