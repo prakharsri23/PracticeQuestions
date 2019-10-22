@@ -1,10 +1,10 @@
-#include<iostream>
+#include<iostream>88//including input stream class
 using namespace std;
 
-class polygon
+class polygon//declaring a class
 { 
  public: 
- int width, height;
+ int width, height;//publically declaring a variable
  
  void set_value()
  { 
@@ -16,7 +16,7 @@ class polygon
 virtual  void calculate_area ()= 0;
 //pure virtual function
 };
-class Rectangle : public polygon
+class Rectangle : public polygon//class rectangle publically inhriting class polygon
 { 
   public: 
   void calculate_area ()
