@@ -30,7 +30,7 @@ class Circle : public Shape//inheriting a class
     cout<<"The area is: "<<area<<endl;
 }
 };
-  class Rectangle: public Shape
+  class Rectangle: public Shape//Shape is a base class
   {
   public: 
     void display ()
